@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Valid Login",
+        "email": "john.doe@example.com",
+        "password": "Test@123",
+        "instituteCode": "ABC123",
+        "status": "Login successful or no error message displayed"
+    },
+    {
+        "title": "Invalid Email Format",
+        "email": "invalidemail",
+        "password": "Test@123",
+        "instituteCode": "ABC123",
+        "status": "Login successful or no error message displayed"
+    },
+    {
+        "title": "Incorrect Password",
+        "email": "john.doe@example.com",
+        "password": "WrongPassword123",
+        "instituteCode": "ABC123",
+        "status": "Login successful or no error message displayed"
+    },
+    {
+        "title": "Empty Fields",
+        "email": "",
+        "password": "",
+        "instituteCode": "",
+        "status": "Login successful or no error message displayed"
+    },
+    {
+        "title": "Nonexistent User",
+        "email": "nonexistent@example.com",
+        "password": "Test@123",
+        "instituteCode": "XYZ789",
+        "status": "Login successful or no error message displayed"
+    }
+]

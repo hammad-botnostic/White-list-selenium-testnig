@@ -1,0 +1,66 @@
+[
+    {
+        "test_case_title": "Valid form submission",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "123",
+        "company_code": "Dem-1692959085",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Missing first name",
+        "first_name": "",
+        "last_name": "Doe",
+        "emp_id": "123",
+        "company_code": "Dem-1692959085",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Missing last name",
+        "first_name": "John",
+        "last_name": "",
+        "emp_id": "123",
+        "company_code": "Dem-1692959085",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Missing Employee ID",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "",
+        "company_code": "Dem-1692959085",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Missing Company Code",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "123",
+        "company_code": "",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Invalid Employee ID (non-numeric)",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "ABC",
+        "company_code": "Dem-1692959085",
+        "error_text": ""
+    },
+    {
+        "test_case_title": "Invalid Company Code (missing 'Dem-')",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "123",
+        "company_code": "1692959085",
+        "error_text": "Something Went Wrong"
+    },
+    {
+        "test_case_title": "Invalid Company Code (wrong format)",
+        "first_name": "John",
+        "last_name": "Doe",
+        "emp_id": "123",
+        "company_code": "Demo-1234567890",
+        "error_text": "Something Went Wrong"
+    }
+]
